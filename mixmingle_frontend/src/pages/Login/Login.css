@@ -1,0 +1,79 @@
+.LoginContainer{
+    background-color: #FFF;
+    /* padding: 32px 48px; */
+    border-radius: 10px;
+    width: 100%;
+    max-width: 65%;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .LoginLeftContainer{
+    /* padding: 32px 48px; */
+    width: 50%;
+    height: 100%;
+  }
+
+  .LoginRightContainer{
+    padding: 32px 48px;
+    width: 50%;
+    height: 100%;
+  }
+  
+  .LoginContainer > h1{
+    margin-bottom: 20px;
+  }
+  
+  .LoginContainer > form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .LoginContainer div{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .LoginContainer input{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+  }
+  
+  .LoginContainer input::placeholder{
+    font-size: 12px;
+    /* font-style: italic; */
+  }
+  
+  button{
+    background-color: purple;
+    border: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+
+  .LoginFooter{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .LoginForm {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.LoginRightContainer{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
